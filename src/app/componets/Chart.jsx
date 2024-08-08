@@ -73,7 +73,7 @@ ChartJS.register(
 export const Chart = () => {
 return(
 
-<div className="relative w-auto m-auto ml-12 bg-white border rounded-lg md:col-span-2 ">
+<div className="relative w-auto m-auto ml-12 border rounded-lg bg-zinc-900 md:col-span-2 ">
   <strong className="font-medium text-white">Activity</strong>
   <div className="flex-1 text">
 

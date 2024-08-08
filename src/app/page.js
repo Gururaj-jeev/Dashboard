@@ -18,7 +18,7 @@ import Feedback from "./componets/Feedback";
 
 export default function page() {
   return (
-<div className="flex flex-row w-screen h-screen overflow-hidden bg-slate-900 ">
+<div className="flex flex-row w-screen h-screen overflow-hidden bg-black ">
  
 <Sidebar>
   <div className="">

@@ -54,7 +54,7 @@ export default function DashboardStats() {
 					</div>
 				</div>
 			</BoxWrapper>
- <div className='flex items-center w-6/12 border card bg-base-100 rounded-xl basis-1/3'>
+ <div className='flex items-center w-6/12 border card bg-base-100 rounded-xl bg-zinc-900 basis-1/3'>
 				<div className='m-4 '>
 					<p className='text-2xl text-white'>Net profit</p>
 					<p className='text-5xl text-white'>$6759.25</p>
@@ -70,5 +70,5 @@ export default function DashboardStats() {
 }
 
 function BoxWrapper({ children }) {
-	return <div className="flex flex-col items-start flex-1 p-8 border border-gray-200 bore w-96 rounded-xl">{children}</div>
+	return <div className="flex flex-col items-start flex-1 p-8 border border-gray-200 bg-zinc-900 bore w-96 rounded-xl">{children}</div>
 }

@@ -5,7 +5,7 @@ import { Star } from 'lucide-react';
 const Feedback = () => {
   return (
     <div>
-      <div className='w-full col-span-1 relative lg:h-[70vh] scroll-auto h-[50vh] m-auto p-4 border rounded-lg bg-slate-700 overflow-scroll'>
+      <div className='w-full col-span-1 relative lg:h-[70vh] scroll-auto h-[50vh] m-auto p-4 border rounded-lg bg-zinc-900 overflow-scroll'>
       <h1 className="text-3xl text-white " >Customer's Feedback</h1>
       <ul className='pt-8 pl-4 scroll-auto'>
         <l className="text-2xl text-white">Jenny wilson</l>
